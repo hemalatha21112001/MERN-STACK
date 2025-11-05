@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 70px;
+  background: #ff5b6b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sidebar .social a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  margin: 15px 0;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px 40px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.sign-up {
+  border: 1px solid #ff5b6b;
+  color: #ff5b6b;
+}
+
+.login {
+  background: #ff5b6b;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 450px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.hero-text span {
+  color: #2e2e8a;
+}
+
+.hero-text p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.email-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.email-box input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.email-box button {
+  background: #ff5b6b;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hero-text .small-text {
+  font-size: 14px;
+  color: #999;
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  position: relative;
+  text-align: right;
+}
+
+.hero-image img {
+  width: 80%;
+  border-radius: 50%;
+  background: #ff5b6b;
+  padding: 10px;
+}
